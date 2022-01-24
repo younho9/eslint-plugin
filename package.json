@@ -1,0 +1,70 @@
+{
+	"name": "@younho9/eslint-plugin",
+	"version": "0.6.0",
+	"description": "Personal ESLint plugin with multiple configs",
+	"keywords": [
+		"eslint",
+		"eslint-plugin"
+	],
+	"bugs": {
+		"url": "https://github.com/younho9/eslint-plugin/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/younho9/eslint-plugin.git"
+	},
+	"license": "MIT",
+	"author": {
+		"name": "Younho Choo",
+		"email": "yo+github@younho9.com",
+		"url": "https://younho9.dev"
+	},
+	"type": "commonjs",
+	"main": "index.js",
+	"files": [
+		"index.js",
+		"configs"
+	],
+	"dependencies": {
+		"@types/eslint": "7.28.2"
+	},
+	"devDependencies": {
+		"@typescript-eslint/eslint-plugin": "5.2.0",
+		"@typescript-eslint/parser": "5.2.0",
+		"eslint": "^8.1.0",
+		"eslint-config-prettier": "^8.3.0",
+		"eslint-import-resolver-node": "0.3.6",
+		"eslint-plugin-eslint-plugin": "4.0.2",
+		"eslint-plugin-import": "2.25.2",
+		"eslint-plugin-jest": "25.2.2",
+		"eslint-plugin-jsdoc": "37.0.3",
+		"eslint-plugin-jsx-a11y": "6.4.1",
+		"eslint-plugin-node": "11.1.0",
+		"eslint-plugin-prettier": "4.0.0",
+		"eslint-plugin-react": "7.26.1",
+		"eslint-plugin-react-hooks": "4.2.0",
+		"prettier": "2.4.1"
+	},
+	"peerDependencies": {
+		"@typescript-eslint/eslint-plugin": ">=5",
+		"@typescript-eslint/parser": ">=5",
+		"eslint": ">=6",
+		"eslint-config-prettier": ">=8",
+		"eslint-import-resolver-node": ">=0",
+		"eslint-plugin-import": ">=2",
+		"eslint-plugin-jest": ">=25",
+		"eslint-plugin-jsdoc": ">=37",
+		"eslint-plugin-jsx-a11y": ">=6",
+		"eslint-plugin-node": ">=11",
+		"eslint-plugin-prettier": ">=4",
+		"eslint-plugin-react": ">=7",
+		"eslint-plugin-react-hooks": ">=4",
+		"prettier": "*"
+	},
+	"engines": {
+		"node": "^12.20.0 || ^14.13.1 || >=16.0.0"
+	},
+	"publishConfig": {
+		"access": "public"
+	}
+}
